@@ -1,0 +1,25 @@
+{
+  "name": "electron-reactjs-typescript-webpack",
+  "version": "1.0.0",
+  "description": "electron-reactjs-typescript-webpack",
+  "main": "./src/main.ts",
+  "repository": "https://github.com/binojvr/electron-reactjs-typescript-webpack.git",
+  "author": "binoj <binojvr@yahoo.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js",
+    "start": "yarn run build && electron ./dist/main.js"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "electron": "^7.1.6",
+    "html-webpack-plugin": "^3.0.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10"
+  }
+}
